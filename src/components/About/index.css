@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.about-image {
+  width: 150px;
+}
+
+.heading {
+  color: #6d396b;
+  font-size: 30px;
+}
+
+.about-description {
+  color: #12022f;
+  font-size: 18px;
+}

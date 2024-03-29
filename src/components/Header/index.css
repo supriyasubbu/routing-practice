@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+@media (max-width: 575px) {
+  .nav-bar {
+    padding: 15px;
+  }
+}
+
+.heading {
+  color: #12022f;
+  margin-right: 12px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  padding: 0px;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+.header-image {
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.nav-list {
+  color: #12022f;
+  font-size: 28px;
+  margin-left: 14px;
+  text-decoration: none;
+}
